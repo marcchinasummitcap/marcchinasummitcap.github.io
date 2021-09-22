@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="68px" height="68px" viewBox="0 0 68 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>Play button dark</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Play-button-dark">
+            <g id="button-/-media-/-play" transform="translate(2.000000, 2.000000)">
+                <g>
+                    <circle id="Oval-2" fill="#4C4C4C" cx="32" cy="32" r="32"></circle>
+                    <polygon id="Path-4" fill="#FFFFFF" points="27 23 27 42 40.7453613 32.6062722"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

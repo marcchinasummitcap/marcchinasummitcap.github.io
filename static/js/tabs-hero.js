@@ -1,0 +1,2 @@
+/*! morgan-stanley-redesign 23-08-2021 */
+var MSCOM=MSCOM||{};MSCOM.Modules=MSCOM.Modules||{},MSCOM.Modules.tabsHero=function(){function a(){c.tabs({updateHash:!0,suffix:"-tab",toggleMobile:!1})}function b(){$(".hero-view").unwrap(),a()}var c=$(".hero-views-module");return{init:b}}();

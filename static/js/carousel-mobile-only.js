@@ -1,0 +1,2 @@
+/*! morgan-stanley-redesign 20-07-2021 */
+var MSCOM=MSCOM||{};MSCOM.Modules=MSCOM.Modules||{},MSCOM.Modules.carouselMobileOnly=function(){function a(){$(MSCOM.windowObj).on("change",function(){b()})}function b(){"small"===MSCOM.windowObj.viewport&&(d.hasClass("slick-slider")||d.slick({dots:!0,slide:"li",slidesToShow:1,arrows:!0}))}function c(){d.length>0&&(b(),a())}var d=$(".carousel-mobile-only"),e={init:c};return e}();

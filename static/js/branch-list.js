@@ -1,0 +1,2 @@
+/*! morgan-stanley-redesign 20-07-2021 */
+var MSCOM=MSCOM||{};MSCOM.Modules=MSCOM.Modules||{},MSCOM.Modules.branchList=function(){function a(){MSCOM.utilities.styleFluidGridList(f)}function b(a){a.preventDefault(),currentInd+=1,c(currentInd)}function c(a){var b=3*a;$(".mobile-load-more li:lt("+b+")").show(),a===j&&g.parent().remove()}function d(){g.on("click",b)}function e(){a(),d()}var f=$(".fluid-grid-list"),g=$(".fluid-grid-list-module .load-more-branches"),h=$(".mobile-load-more li"),i=h.length,j=Math.ceil(i/3);currentInd=1;var k={init:e};return k}();
