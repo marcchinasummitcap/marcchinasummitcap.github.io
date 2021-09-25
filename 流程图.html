@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script> -->
+    <!-- <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css"> -->
+</head>
+<body>
+<style>
+    .flow-arrow{
+        font-size: 60px;
+        width: 100px;
+        height: 100px;
+        color: rgb(64, 164, 192);
+        text-align: center;
+    }
+    .flow-box{
+        width: 100px;
+        height: 100px;
+        /*text-align: center;*/
+        letter-spacing: -1px;
+        border-radius: 10%;
+        line-height: 35px;
+        border:1px solid black;
+    }
+
+    .flex-container {
+        display: -webkit-flex;
+        display: flex;
+        /* width: 400px;
+        height: 250px;
+        background-color: lightgrey; */
+    }
+</style>
+
+
+<div class="flex-container">
+    <div class="col-md-3 flow-box">客户选定房产</div>
+    <div class="col-md-2 flow-arrow">➡</div>
+    <div class="col-md-3 flow-box">签订意向书</div>
+    <div class="col-md-2 flow-arrow">➡</div>
+    <div class="col-md-3 flow-box">签署认购协议及⾸付</div>
+    <div class="col-md-2 flow-arrow">➡</div>
+    <div class="col-md-3 flow-box">签署协议，⽀付尾款</div>
+    <div class="col-md-2 flow-arrow">➡</div>
+    <div class="col-md-3 flow-box" >完成收房</div>
+    <!-- style="color:red;line-height: 100px; -->
+    <div class="col-md-2 flow-arrow">➡</div>
+    <div class="col-md-3 flow-box" >结束</div>
+</div>
+
+</body>
+</html>
