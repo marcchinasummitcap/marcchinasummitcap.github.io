@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        function f(i){
+            var cur = document.getElementById(i);
+            getPosition(cur);
+        }
+
+        function getPosition(e){
+            var t=e.offsetTop;
+            var l=e.offsetLeft;
+            while(e=e.offsetParent){
+                t+=e.offsetTop;
+                l+=e.offsetLeft;
+            }
+            $("html,body").animate({scrollTop:t},300);
+        }
+    </script>
+</head>
+<body>
+<button onclick="f('myHeader')">sss</button>
+<a >asdfa</a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p  id="myHeader">跳至第一个锚点</p>
+</body>
+</html>
